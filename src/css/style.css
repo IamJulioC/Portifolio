@@ -17,7 +17,7 @@ body{
     max-width: 72vw;
     margin-top: 10vh;
     margin-bottom: 30px;
-    background: rgba(0, 0, 0, 0.56);
+    background: var(--background-card-color);
     padding: 50px;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -36,7 +36,6 @@ ul.nav-links{
     margin: 0;
     float: right;
     display: flex;
-    list-style: none;
 }
 
 li.nav-link{
@@ -44,6 +43,15 @@ li.nav-link{
     margin-left: 30px;
     font-size: 17px;
     font-weight: 300;
+}
+
+.nav-menu li{
+    transition: .3s all ease-in;
+}
+
+.nav-menu li:hover{
+    color: var(--text-hover);
+    text-decoration: underline var(--text-hover);
 }
 
 .content{
