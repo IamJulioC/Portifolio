@@ -1,5 +1,5 @@
 :root{
-    --background-color: hsl(73, 100%, 80%);
+    --background-card-color: rgba(0, 0, 0, .56);
     --text-color: hsl(0, 0%, 100%);
-    --card-color: hsl(223, 30%, 95%);
+    --text-hover: #427eff;
 }
