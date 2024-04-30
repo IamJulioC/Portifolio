@@ -11,8 +11,13 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+    <link rel="stylesheet" href="./assets/css/skill.css">
     <!---->
-    <title>Portifólio - @IamJulioC</title>
+    <title>Portfólio - @IamJulioC</title>
 </head>
 <body>
     <div class="container">
@@ -28,6 +33,95 @@
                 <p class="mail"><a href="mailto:iamjulioc@live.com">iamjulioc@live.com</a></p>
             </div>
         </header>
+
+        <!--Skill/Habilidades-->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools" >
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li><img src="/assets/icon/jsIcon.svg" alt="JavaScript" title="JavaScript"></li>
+                            <li><img src="/assets/icon/tsIcon.svg" alt="TypeScript" title="TypeScript"></li>
+                            <li><img src="/assets/icon/nodeJs.svg" alt="Node JS" title="Node JS"></li>
+                            <li><img src="/assets/icon/angularIcon.svg" alt="Angular" title="Angular"></li>
+                            <li><img src="/assets/icon/html5Icon.svg" alt="HTML5" title="HTML 5"></li>
+                            <li><img src="/assets/icon/css3Icon.svg" alt="CSS3" title="CSS 3"></li>
+                        </ul>
+                    </section>
+    
+                    <section class="personal" >
+                        <h3>Pessoal:</h3>
+                        <ul>
+                            <li>Resolução de problemas</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Lógica</li>
+                            <li>Organização</li>
+                            <li>Estudo</li>
+                            <li>Empatia</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!--Idiomas-->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês</li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Portfólio-->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+               <ul class="portfolio" >
+                <li>
+                    <h3 class="title github">Pet2Go</h3>
+                    <a href="https://github.com/IamJulioC/Pet2Go" target="_blank">https://github.com/IamJulioC/Pet2Go</a>
+                </li>
+               </ul>
+            </div>
+        </section>
+
+        <!--Experiência Profissional-->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Assistente em Suporte Técnico / Dental Office</h3>
+                        <p class="period">Ago 2022 - Current</p>
+                        <p>
+                            Atuo na prestação de suporte remoto a clientes de todo o Brasil, atendo os clientes através do chat,
+                            tirando dúvidas, efetuando a instalação de software proprietário, e configuração da rede.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
     </div> 
+
+    <!--Impartação JS-->
+    <script src="./assets/js/acordeon.js"></script>
 </body>
 </html>
